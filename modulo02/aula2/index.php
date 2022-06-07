@@ -15,8 +15,8 @@ $produto2->valor = 100;
 */
 
 $produto3 = new Produto();
-$produto3->alterarNome('Raquete de mata mosquito');
-$produto3->alterarValor(20);
+$produto3->setNome('Raquete de mata mosquito');
+$produto3->setValor(20);
 
 var_dump($produto3);
 
