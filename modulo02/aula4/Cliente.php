@@ -6,5 +6,16 @@ class Cliente extends Usuario{
    
     private string $dataCadastro;
 
+
+    
+    public function setDataCadastro(string $dataCadastro):void
+    {
+        $this->dataCadastro = $dataCadastro;
+    }
+
+    public function getDataCadastro():string
+    {
+        return $this->dataCadastro;
+    }
         
 }
