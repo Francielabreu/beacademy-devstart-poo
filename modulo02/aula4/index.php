@@ -17,6 +17,10 @@ $g1->setSalario(1500);
 $gg1 = new GestorGeral('gestor@gmail.com','123456',3000);
 $gg1->setBonusAnual(7000);
 
+$cpf = "123456789";
+Validar::validarCpf($cpf);
+$c1->setCpf($cpf);
+
 var_dump($c1);
-var_dump($g1);
-var_dump($gg1);
+//var_dump($g1);
+//var_dump($gg1);
