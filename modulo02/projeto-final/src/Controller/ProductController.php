@@ -5,18 +5,18 @@ declare(strict_types=1);
 namespace App\Controller;
 
 
-class ProductController{
+class ProductController extends AbstractController{
 
     public function listAction():void
     {
-        include dirname(__DIR__).'/View/Product/Listar.php';
+        parent::render('Product/Listar');
     }
     public function addAction():void
     {
-        include dirname(__DIR__).'/View/Product/Adicionar.php';
+        parent::render('Product/Adicionar');
     }
     public function editAction():void
     {
-        include dirname(__DIR__).'/View/Product/Editar.php';
+        parent::render('Product/Editar');
     }
 }
