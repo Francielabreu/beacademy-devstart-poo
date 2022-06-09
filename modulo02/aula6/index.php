@@ -10,7 +10,7 @@ use Dompdf\Dompdf;
 
 
 // instantiate and use the dompdf class
-$dompdf = new Dompdf();
+//$dompdf = new Dompdf();
 $dompdf->loadHtml('hello world');
 
 // Render the HTML as PDF
