@@ -1,5 +1,5 @@
 
-# Introdução ao PHP
+# PHP Orientado à Objetos
 
 💻 Repositorio contendo todos os exercicios proposto em aula no modulo
 de PHP Orientado a objeto, com o professor Alessandro Feitoza, curso realizado no Progama 
